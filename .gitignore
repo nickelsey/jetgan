@@ -1,0 +1,116 @@
+# ignore lists for git
+
+# emacs
+*~
+
+# vim 
+*.swp
+*.swo
+
+# vscode
+.vscode
+
+# pycharm
+.idea
+
+# Spyder
+.spyproject/
+
+# jupyter NB checkpoints
+.ipynb_checkpoints/
+
+# object files
+*.slo
+*.lo
+*.o
+*.cuo
+*.obj
+
+# dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# ROOT files
+*.root
+
+# logs
+*.err
+*.log
+*.out
+log
+
+# apple specific stuff
+.DS_Store*
+._*
+
+# images
+*jpeg
+*jpg
+*png
+*pdf
+
+# executables
+*.exe
+*.out
+*.app
+
+# python caching/compiled 
+__pycache__/
+*.py[cod]
+
+# build/packaging
+.Python
+env/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# pip logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+# database
+*.db
+*.rdb
+*.csv
+*.tsv
